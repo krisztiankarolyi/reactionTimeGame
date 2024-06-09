@@ -1,0 +1,71 @@
+*{
+    font-family: "Open Sans", sans-serif; 
+}
+
+body {
+    background: rgb(235,235,235);
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    width: 100vw; 
+}
+.wait{
+    background: rgb(195,0,0);
+    color: #fff;
+}
+.tap{
+    background: green;
+    color: #fff;
+}
+
+.highscore{
+    background: rgb(35,35,35);
+    color: #fff;
+    display: block;
+    font-size: 0.85em;
+    height: auto;
+    left: 0;
+    padding: 4px;
+    position: absolute; 
+    top: 0;
+    width: calc(50% - 8px);
+}
+.hs{
+   color: rgb(12,85,225); 
+}
+
+
+footer{
+    background: rgb(205,205,205);
+    bottom: 0;
+    font-size: 0.85em;
+    left: 0;
+    padding: 0 4px;
+    position: absolute; 
+    text-align: center;
+    width: calc(100% - 8px);
+}
+
+button{
+    background: rgb(12,85,225);
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 10px;
+    padding: 5px 12px;
+}
+
+[dn]{
+    display: none; 
+}

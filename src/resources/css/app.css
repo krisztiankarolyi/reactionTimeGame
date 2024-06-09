@@ -1,0 +1,15 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import '~bootstrap/scss/bootstrap';ű
+
+.card
+{
+	color: black;
+	background: white;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+li{
+	
+	border: 1px solid white;
+	padding: 2px;
+}
